@@ -1,0 +1,32 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.text1 {
+	font-family: monospace;
+	font-size: 20px;
+}
+.link {
+	font-family: monospace;
+	font-size: 20px;
+	padding: 3px;
+}
+.btn {
+	font-size: 20px;
+	font-family: monospace;
+	color: #fff;
+	background: linear-gradient(to left, #f5af19, #f12711, #f5af19);
+	text-decoration: none;
+	padding: 20px 70px;
+	border-radius: 10px;
+	background-size: 200%;
+	transition: .5s;
+	margin-top: 500px;
+	margin-right: 20px;
+}
+.btn:hover {
+	background-position: right;
+}
