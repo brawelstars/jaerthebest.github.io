@@ -155,10 +155,6 @@ a.button7:active {
   background: rgb(33,147,90);
   box-shadow: 0 3px rgb(33,147,90) inset;
  }
-a {
-  opacity: 0.5;
-  pointer-events: none;
-}
 input[type="checkbox"]:checked ~ a {
   opacity: 1;
   pointer-events: auto;
